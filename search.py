@@ -11,7 +11,7 @@ def search():
     
     ### ここに検索ロジックを書く
 
-    print("{}が見つかりした".format(word))
+    print(f"{word}が見つかりした")
 
 if __name__ == "__main__":
     search()
